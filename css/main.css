@@ -1,0 +1,186 @@
+body {
+  font-family: "Georgia","Palatino", serif;
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: #FF555D; }
+
+h1, h2, h3 {
+  font-weight: normal; }
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  header {
+    width: 256px;
+    height: 256px;
+    margin: 10% auto;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    position: relative; }
+
+  header h2 {
+    font-family: "Palatino","Open Sans", sans-serif;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: .04em;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    width: 100px;
+    margin-left: -50px; }
+
+  header h2 em {
+    font-style: italic;
+    text-transform: lowercase; }
+
+  #wordmark {
+    font-family: "Georgia","Palatino",serif;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    font-size: 36px;
+    line-height: 1;
+    position: absolute;
+    width: 137px;
+    color: #444;
+    margin: -64px 0 0 -64px;
+    top: 50%;
+    left: 50%;
+    z-index: 50; }
+
+  #wordmark b {
+    color: #ccc;
+    font-family: "Palatino",serif;
+    font-style: italic;
+    font-weight: normal;
+    position: absolute;
+    font-size: 54px;
+    right: 0;
+    z-index: -100; }
+
+  #wordmark a {
+    color: #444;
+    text-decoration: none; }
+
+  #wordmark a b {
+    color: #FF555D; }
+
+  #wordmark a:hover b {
+    color: #FF555D;
+    -webkit-transition: all .5s; } }
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  header {
+    width: 256px;
+    height: 256px;
+    margin: 0 auto;
+    position: fixed;
+    top: 50%;
+    z-index: 10;
+    left: 50%;
+    margin-top: -128px;
+    margin-left: -128px; } }
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
+.square {
+  position: relative;
+  width: 100%;
+  /* desired width */ }
+
+.square:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+  /* initial ratio of 1:1*/ }
+
+.half-square {
+  display: block;
+  width: 100%; }
+
+.half-square:before {
+  content: "";
+  display: block;
+  padding-top: 50%;
+  /* initial ratio of 2:1*/ }
+
+.item {
+  position: relative; }
+
+.item h1 {
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: "Palatino Linotype", "Palatino", "Georgia", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 72px;
+  color: transparent;
+  -webkit-transition: all .5s; }
+
+.item a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all .5s; }
+
+.item a:hover {
+  background-color: rgba(255, 85, 93, 0.9);
+  -webkit-transition: all .5s; }
+
+.item a:hover h1 {
+  color: #fff;
+  -webkit-transition: all .5s; }
+
+#ux-heroes {
+  background: transparent url("../UX-Heroes-iPad-Dilworth.jpg") center center no-repeat;
+  background-size: 178% auto;
+  background-color: #C98A69; }
+
+#gospel-library {
+  background: transparent url("../Portfolio-Presentation_05.jpg") center center no-repeat;
+  background-size: 133% auto;
+  background-color: #1F1E1E; }
+
+#midas {
+  background: transparent url("../List-view.png") top center repeat;
+  background-size: 121% auto;
+  background-color: #5B9BE4; }
+
+#trax {
+  background: transparent url("../TRAX_inspiration.png") center center repeat;
+  background-size: 100% auto;
+  background-color: #000; }
+
+#ux-anatomy {
+  background: transparent url("../UX-Map-Diagram.png") center left no-repeat;
+  background-size: 100% auto;
+  background-color: #E7E8E9; }
+
+#rdfa {
+  background: transparent url("../rdfa-mark.png") top center no-repeat;
+  background-size: 128% auto;
+  background-color: #632223; }
+
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .col-1, .col-2 {
+    display: block;
+    width: 50%; }
+
+  .col-1 {
+    float: left; }
+
+  .col-2 {
+    float: right; } }
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
